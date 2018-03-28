@@ -1,0 +1,22 @@
+header{
+	background:url(img/main.jpg) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.section-four{
+	background:url(img/video-bg.jpg) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.section-six{
+	background:url(img/banner.jpg) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.section-seven{
+	background:url(img/testimonials-bg.jpg) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
