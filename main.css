@@ -18,14 +18,19 @@ header{
 	overflow: hidden;
 }
 
+
+.section{
+	margin-top: 7em;
+}
+
 .section-three{
 	background:url(img/video-bg.jpg) center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-.section-six{
-	background:url(img/banner.jpg) center center no-repeat;
+.section-five{
+	background:url(img/contact.jpg) center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -144,4 +149,22 @@ header{
   	color:#2644BC;
   	font-weight: 600;
   	border-color: #fff;
+  }
+
+
+
+
+  /**************************SECTION TWO*******************/
+
+  .section-text{
+  	color:#777777;
+  }
+
+  .section-two-header{
+  	color:#000000;
+  	font-weight: 600;
+  	font-size: 2em;
+  }
+  .section-text-two{
+  	margin-top: 3rem;
   }
