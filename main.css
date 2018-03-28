@@ -1,7 +1,21 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+body{
+	line-height:1.5;
+	letter-spacing: 1px;
+	font-size: 14px;
+	font-family: 'Poppins',Helvetica, Arial, sans-serif;
+}
 header{
 	background:url(img/main.jpg) center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	height: 100vh;
+	overflow: hidden;
 }
 
 .section-three{
@@ -20,3 +34,114 @@ header{
 	background-size: cover;
 	background-attachment: fixed;
 }
+
+
+
+/*********************HEADER SECTION********************/
+ .navbar{
+  	margin-bottom: 0;
+  	border-radius: 0;
+  	background-color:transparent;
+  	color: #fff;
+  	padding:1% 0;
+  	font-size: 1.2em;
+  	border:0;
+  }
+   .current:hover{
+  	background-color: blue;
+  }
+
+   .navbar-brand{
+  	float: left;
+  	min-height: 55px;
+  	padding: 0 15px 15px;
+  }
+
+    .navbar-inverse .navbar-nav .active a,
+  .navbar-inverse .navbar-nav .active a:focus,
+  .navbar-inverse .navbar-nav .active a :hover{
+  	color: #2644BC;
+  	background-color: transparent;
+  }
+  .navbar-inverse .navbar-nav .active a:hover{
+  	background:transparent;
+  }
+
+   .navbar-inverse .navbar-nav li a{
+  	color:#fff;
+  }
+   .navbar-inverse .navbar-nav li a:hover{
+  	color:#2644BC;
+  }
+
+  .header-links{
+  	padding: 1em;
+  	padding-top: 1.3em;
+  	padding-right: 5.8em;
+  	font-weight: 500;
+  }
+
+  .header-links-logo{
+  	padding: 1em;
+  	padding-top: 2em;
+  	padding-left: 5em;
+  }
+
+  .site-header{
+  	color: #fff;
+  	text-align: center;
+  	font-weight: 700;
+  	font-size: 4em;
+  	margin-top: 13rem;
+  	letter-spacing: 2px;
+  }
+   .site-header-one{
+  	color: #fff;
+  	text-align: center;
+  	font-weight: 700;
+  	font-size: 4em;
+  	margin-top: 13rem;
+  	margin-bottom: -13rem;
+  	letter-spacing: 2px;
+  }
+
+  .header-content{
+  	text-align: center;
+  	color: #fff;
+  	font-weight: 500;
+  	font-size: 1.2em;
+  	margin-bottom: 0;
+  }
+  .header-btn{
+  	margin-top: 2.6rem;
+  	margin-left: 40%;
+  }
+  .btn{
+  	padding: 1.5rem 3rem;
+  }
+  .btn-one{
+  	background-color: #fff;
+  	color:#2644BC;
+  	font-weight: 600;
+  	border-color: #fff;
+  	transition: all .5s;
+  }
+   .btn-two{
+  	background-color: #3BEBDE;
+  	color:#fff;
+  	font-weight: 600;
+  	border-color:#3BEBDE; 
+  	transition: all .5s;
+  }
+  .btn-one:hover{
+  	background-color: #3BEBDE;
+  	color:#fff;
+  	font-weight: 600;
+  	border-color:#3BEBDE; 
+  }
+  .btn-two:hover{
+  	background-color: #fff;
+  	color:#2644BC;
+  	font-weight: 600;
+  	border-color: #fff;
+  }
