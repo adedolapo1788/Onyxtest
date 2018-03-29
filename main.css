@@ -16,11 +16,21 @@ header{
 	background-attachment: fixed;
 	height: 100vh;
 	overflow: hidden;
+	position: relative;
+}
+header:before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-bottom: 96px solid #fff;
+	border-left: 1929px solid transparent;
 }
 
 
 .section{
-	margin-top: 7em;
+	margin-top: 10em;
 }
 
 .section-three{
@@ -151,20 +161,43 @@ header{
   	border-color: #fff;
   }
 
+  .section-text{
+  	color:#777777;
+  }
+  .section-text-one{
+  	margin-top: 1.7em;
+  }
+  .section-two-header{
+  	font-size: 2.5rem;
+  }
+
 
 
 
   /**************************SECTION TWO*******************/
-
-  .section-text{
-  	color:#777777;
+  .section-two-content{
+  	text-align: center;
+  	margin-bottom: 6em;
+  }
+  .section-two-header-text{
+  	font-size: 1.76em;
+  	font-weight: 700;
   }
 
-  .section-two-header{
-  	color:#000000;
-  	font-weight: 600;
-  	font-size: 2em;
+
+
+  /**************************SECTION THREE*******************/
+  
+ .section-three-header-text{
+  	margin-top: 7em;
+  	color: #fff;
+  	font-size: 1.78em;
+  	margin-left: 5em;
   }
-  .section-text-two{
-  	margin-top: 3rem;
+  .section-three-header-text-two{
+  	color: #fff;
+  	font-size: 1.78em;
+  	margin-left: 5em;
+
   }
+ 
