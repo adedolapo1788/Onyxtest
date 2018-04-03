@@ -188,16 +188,136 @@ header:before{
 
   /**************************SECTION THREE*******************/
   
- .section-three-header-text{
-  	margin-top: 7em;
+.section-three-header-text{
+  	margin-top:5em;
   	color: #fff;
-  	font-size: 1.78em;
-  	margin-left: 5em;
+  	font-size: 1.8em;
+  	font-weight: 700;
   }
   .section-three-header-text-two{
   	color: #fff;
-  	font-size: 1.78em;
-  	margin-left: 5em;
+  	font-size: 1.8em;
+  	margin-bottom: 2em;
+  	margin-top: 0;
+  	font-weight: 700;
 
   }
  
+/**************************SECTION SEVEN *******************/
+
+.carousel-content{
+	margin-top: 7em;
+}
+
+.carousel-header-img{
+	margin:0 auto;
+}
+.carousel-indicators {
+  bottom:-50px;
+}
+
+.carousel-indicators li {
+    cursor: pointer;
+    background-color: #fff;
+    border:none;   
+}
+.carousel-indicators .active {
+    background-color: #3C3BEE;
+}
+.carousel-indicators li:hover{
+    cursor: pointer;
+    background-color: #3C3BEE;
+    border:none;   
+}
+
+
+/***************************SWIPER*******************/
+.swiper-container {
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+      list-style: none;
+      padding: 0;
+      z-index: 1;
+    }
+    .swiper-slide {
+      text-align: center;
+      width: 55%;
+      max-height: 640px;
+      height: 100%;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .slider-img{
+    	width: 55%;
+    }
+
+    .swiper-scrollbar{
+    	position: relative;
+    	top: 0;
+    	left: 0;
+    	width: 55%;
+    	height: 6px;
+    	background: #3B66EA;
+    	margin:72px auto 0 auto;
+    }
+    .swiper-scrollbar{
+    	border-radius: 10px;
+    	position: relative;
+    	background-color:;
+    }
+
+
+    .portfolio-contact{
+    	background:url(img/contact.jpg) center center no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		color:#fff;
+    }
+
+    .section-contact-header-text{
+  	margin-top:7em;
+  	color: #fff;
+  	font-size: 1.8em;
+  	font-weight: 700;
+  }
+ .contactUs{
+ 	margin-top: 2em;
+ 	margin-bottom: 9em;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************** MEDIA QUERIES **************************************************/
+ @media (max-width: 600px){
+  	.header-collection{
+  	 text-align: center;
+  	 margin-top: -7em;
+  	}
+  	.site-header{
+  		font-size: 1.5em;
+  	}
+  	.site-header-one{
+  		font-size: 1.5em;
+  	}
+  }
